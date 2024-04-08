@@ -17,11 +17,14 @@ public class HwAspectApplication {
 		ApplicationContext context = SpringApplication.run(HwAspectApplication.class, args);
 
 		ConvertFile convertFile = context.getBean(ConvertFile.class);
+
 		convertFile.setInPath(inPath);
 		convertFile.setOutPath(outPath);
+
 		List<String> list = convertFile.getStringsFromFiles();
 
 		list = convertFile.convertList(list, "((?=\\})|(?<=\\{|\\}|;))");
+
 		convertFile.saveListToFile(list);
 	}
 

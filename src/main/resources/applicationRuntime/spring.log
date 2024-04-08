@@ -1,0 +1,6 @@
+2024-04-08T20:45:09.088+03:00  INFO 14504 --- [hw_Aspect] [main] docvel.hw_Aspect.HwAspectApplication     : Starting HwAspectApplication using Java 21.0.2 with PID 14504 (H:\Study\SpringAPI\Code\hw_Aspect\build\classes\java\main started by docve in H:\Study\SpringAPI\Code\hw_Aspect)
+2024-04-08T20:45:09.104+03:00  INFO 14504 --- [hw_Aspect] [main] docvel.hw_Aspect.HwAspectApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-04-08T20:45:09.749+03:00  INFO 14504 --- [hw_Aspect] [main] docvel.hw_Aspect.HwAspectApplication     : Started HwAspectApplication in 1.089 seconds (process running for 1.4)
+2024-04-08T20:45:09.765+03:00  INFO 14504 --- [hw_Aspect] [main] docvel.hw_Aspect.MyTestAspect            : время выполнения getStringsFromFiles: 0 ms
+2024-04-08T20:45:09.812+03:00  INFO 14504 --- [hw_Aspect] [main] docvel.hw_Aspect.MyTestAspect            : время выполнения convertList: 32 ms
+2024-04-08T20:45:09.828+03:00  INFO 14504 --- [hw_Aspect] [main] docvel.hw_Aspect.MyTestAspect            : время выполнения saveListToFile: 16 ms

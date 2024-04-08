@@ -1,3 +1,9 @@
 spring:
   application:
     name: hw_Aspect
+  main:
+    banner-mode: off
+
+logging:
+  file:
+    path: src/main/resources/applicationRuntime
