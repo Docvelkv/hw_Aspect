@@ -23,12 +23,10 @@ public class MyTestAspect {
         Object obj = point.proceed();
         long elapsedTime = System.currentTimeMillis() - start;
 
-        String result = String.format("время выполнения %s.%s: %d ms",
+        log.info("время выполнения {}.{}: {} ms",
                 point.getTarget().getClass().getName(),
                 point.getSignature().getName(),
                 elapsedTime);
-
-        log.info(result);
 
         return obj;
     }
